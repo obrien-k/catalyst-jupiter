@@ -1,5 +1,11 @@
 [Based on BigCommerce Catalyst](https://github.com/bigcommerce/catalyst)
 
+Create a [BigCommerce store](https://bigcommerce.com) and convert it to a sandbox. Create a GitHub repository for testing, and sync this with the result from following the steps on the BigCommerce Catalyst github repo linked above.
+
+This is the default state of Catalyst and you should connect your test store during the initialization.
+
+It’s strongly recommended to sync up this directory with a remote git repository at this step as it will serve as your basis for any changes you make.
+
 ## Requirements
 
 - Node.js 20+
@@ -20,9 +26,3 @@ npx @bigcommerce/create-catalyst@latest init
 ```
 
 Learn more about Catalyst at [catalyst.dev](https://catalyst.dev).
-
-## Resources
-
-- [GraphQL Storefront API Playground](https://developer.bigcommerce.com/graphql-storefront/playground)
-- [GraphQL Storefront API Explorer](https://developer.bigcommerce.com/graphql-storefront/explorer)
-- [BigCommerce DevDocs](https://developer.bigcommerce.com/docs/build)
